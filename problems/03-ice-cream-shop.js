@@ -1,4 +1,4 @@
-i/***********************************************************************
+/***********************************************************************
 Examples:
 iceCreamShop(['vanilla', 'strawberry'], 'blue moon'); // false
 iceCreamShop(['pistachio', 'green tea', 'chocolate', 'mint chip'], 'green tea'); // true

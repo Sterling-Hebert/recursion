@@ -10,11 +10,13 @@ range(3, 4); // [3]
 range(7, 6); // []
 ***********************************************************************/
 
-
-function range(start, end) {
-  // Your code here
-}
-
+ range = (start, end) =>{
+  let newArr = [start];
+  if(end <= start){
+    return [];
+  }
+return newArr.concat(range(start + 1, end))
+ }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS LINE*****************/
 try {
